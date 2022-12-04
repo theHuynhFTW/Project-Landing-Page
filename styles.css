@@ -1,4 +1,5 @@
 body {
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -13,27 +14,38 @@ footer,
 .header {
     display: flex;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    width: 2000px;
-    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 150px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+}
+
+.b1-content {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
 }
 
 .home-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
+input {
+    width: 300px;
+}
 
 ul {
     display: flex;
     list-style-type: none;
-}
-
-a, 
-.hero-sub {
-    font-size: 18px;
-    color: #e5e7eb;
+    padding: 0;
+    margin: 0;
+    gap: 25px;
 }
 
 .hero-main {
@@ -42,17 +54,22 @@ a,
     color: #f9faf8;
 }
 
-.b1-content {
-    display: flex;
-    gap: 50px;
-    width: 2000px;
-    
-    margin-left: auto;
-    margin-right: auto;
+a, 
+.hero-sub {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .b1-text{
     max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.b1-content button {
+    width: 200px;
+    font-size: 20px;
 }
 
 .block3 {
