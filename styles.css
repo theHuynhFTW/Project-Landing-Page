@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+footer,
+.block1 {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2000px;
+    border: 1px solid black;
+}
+
+.home-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a, 
+.hero-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.b1-content {
+    display: flex;
+    gap: 50px;
+    width: 2000px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b1-text{
+    max-width: 700px;
+}
+
+.block3 {
+    background-color: #e5e7eb;
+}
