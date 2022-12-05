@@ -123,8 +123,49 @@ a,
     font-style: italic;
     font-weight: 100;
     color: #1f2937;
+    padding: 100px;
 }
 
 .quoter {
     text-align: end;
+}
+
+.block4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.b4-container {
+    background-color: #3882F6;
+    border-radius: 25px;
+    display: flex;
+    width: 1200px;
+    justify-content: space-evenly;
+    color: #f9faf8;
+    padding: 50px;
+}
+
+.call-container {
+    border: 1px solid black;
+}
+
+.call-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-subtext {
+    width: 700px;
+}
+
+.b4-container button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 25px;
+    border: 1px solid #f9faf8;
+    flex: 0;
+    min-width: 100px;
+    margin: 0;
+    padding: 0;
 }
