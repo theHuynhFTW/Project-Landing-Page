@@ -141,13 +141,9 @@ a,
     border-radius: 25px;
     display: flex;
     width: 1200px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: #f9faf8;
     padding: 50px;
-}
-
-.call-container {
-    border: 1px solid black;
 }
 
 .call-text {
@@ -162,10 +158,11 @@ a,
 .b4-container button {
     background-color: #3882F6;
     color: #f9faf8;
-    border-radius: 25px;
+    border-radius: 5px;
     border: 1px solid #f9faf8;
-    flex: 0;
-    min-width: 100px;
-    margin: 0;
-    padding: 0;
+    width: 110px;
+    margin: 20px 0;
+    padding: 5px;
+    font-weight: bold;
+
 }
