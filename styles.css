@@ -69,8 +69,14 @@ a,
 }
 
 .b1-content button {
-    width: 200px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 19px;
+    border-radius: 7px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: #3882F6;
+    font-weight: bold;
+    padding: 10px;
 }
 
 
@@ -133,6 +139,7 @@ a,
 .block4 {
     display: flex;
     justify-content: center;
+    padding: 150px;
 }
 
 
@@ -158,11 +165,30 @@ a,
 .b4-container button {
     background-color: #3882F6;
     color: #f9faf8;
-    border-radius: 5px;
-    border: 1px solid #f9faf8;
-    width: 110px;
+    border-radius: 7px;
+    border: 2px solid #f9faf8;
+    width: 150px;
     margin: 20px 0;
     padding: 5px;
     font-weight: bold;
+    font-size: 19px;
+}
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #f9faf8;
+}
+
+button {
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color:black;
+}
+
+a:hover {
+    color: black;
 }
