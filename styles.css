@@ -16,10 +16,80 @@ footer,
     justify-content: center;
     margin-top: 15px;
     margin-bottom: 150px;
-    gap: 150px;
+    gap: 250px;
     padding: 20px;
     flex-wrap: wrap;
 }
+
+.open {
+    text-decoration: none;
+}
+
+.popup {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: .1s ease-in-out;
+}
+
+.popup-inner {
+    transition: .1s ease-in-out;
+    bottom: -50vw;
+    right: -50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.popup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-text input {
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+.popup-text a {
+    text-decoration: none;
+}
+
+.popup:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup:target .popup-inner {
+    transform: rotate(0);
+    bottom: 0;
+    right: 0;
+}
+
+.option-popup {
+    display: flex;
+    gap: 10px;
+}
+
+.close-popup,
+.sign-popup {
+    width: 8rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 7px;
+    z-index: 4;
+    background-color:#3882F6;
+    line-height: 2rem;
+    color:#f9faf8;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
 
 .b1-content {
     display: flex;
